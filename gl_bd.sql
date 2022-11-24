@@ -63,6 +63,24 @@ CRÉER TABLE admin (
   username VARCHAR(30),
   password VARCHAR(30),
 );
+CRÉER TABLE connexion (
+  idconnexion INT(11),
+  username VARCHAR(30),
+  password VARCHAR(30),
+);
+CRÉER TABLE inscription (
+   idinscription INT(11),
+   nom VARCHAR(30),
+   prenom VARCHAR(30),
+   username VARCHAR(30),
+  password VARCHAR(30),
+  confirm password VARCHAR(30),
+  telephone INT(30),
+  sexe VARCHAR(30),
+  date de naissance DATE(10),
+  adresse VARCHAR(30),
+);
+
 
 
 --------------------------
@@ -109,8 +127,7 @@ insert into imc values('0002','27/11/2022','1.65','97kg','surpoids');
 insert into imc values('0001','10/12/2022','1.80','78kg','normal');
 insert into imc values('0002','12/12/2022','1.65','70kg','attention risque d'obésité');
 
-insérer dans aime values('s2','indiana jones');
-insérer dans aime values('s3','starwars');
+//
 
 
 
